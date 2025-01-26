@@ -19,16 +19,16 @@ const About = () => {
 
               <div className="background">
                    <p>
-                     &quot;I&apos;m&apos; a passionate Graphic Designer & Front-End Web Developer with a keen eye for detail and a drive to create visually stunning,
+                     &quot;I&apos; a passionate Graphic Designer & Front-End Web Developer with a keen eye for detail and a drive to create visually stunning,
                       user-friendly websites. I specialize in HTML, CSS, JavaScript, and modern frameworks like React and Next.js,
                       leveraging Tailwind CSS for efficient and responsive UI design.
                       My expertise lies in transforming creative ideas into functional,
                       high-performance websites that provide seamless user experiences across all devices.
                       With a strong foundation in both design and development,
                       I ensure clean, maintainable code while optimizing for performance.
-                      Whether it&apos;s&apos; building dynamic single-page applications or complex websites,
-                      I&apos;m&apos; committed to bridging the gap between design and development to bring ideas to life.
-                      Let&apos;s&apos; collaborate and craft something extraordinary!&quot;,
+                      Whether it&apos;s building dynamic single-page applications or complex websites,
+                      I&apos;m committed to bridging the gap between design and development to bring ideas to life.
+                      Let&apos;s collaborate and craft something extraordinary!&quot;,
 
                     </p>
                 </div>
