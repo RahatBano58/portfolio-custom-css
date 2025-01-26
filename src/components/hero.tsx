@@ -11,19 +11,19 @@ const Hero = () => {
      {/* content side */}
      <div className="content">
      <span className='hello'>
-     Hello! I'm <br />
+     Hello! I&apos;m <br />
               </span>{" "}
               
               <TypeAnimation
                 sequence={[
                  
-                  "Rahat Bano",
+                  &quot;Rahat Bano&quot;,
                   1000, 
-                  "Graphic Designer",
+                  &quot;Graphic Designer&quot;,
                   1000,
-                  "Web Developer",
+                &quot;Web Developer&quot;,
                   1000,
-                  "Frontend Developer",
+                  &quot;Frontend Developer&quot;,
                   1000,
 
                 ]}
