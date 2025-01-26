@@ -1,0 +1,404 @@
+.hero-section{
+   
+    background-image: url('/images/pink.png');
+     background-repeat: no-repeat;
+     background-size: cover;
+     
+  }
+  
+  .hero {
+    width: 90%;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: azure;
+    line-height: 250%;
+    font-size: x-large;
+    font-family: "Merienda";
+    text-overflow: hidden;
+  }
+  
+  .content {
+    height: 60%;
+    margin-top: 16%;
+    font-size: 3rem;
+    font-weight: 800;
+  }
+  
+  .content p {
+    font-size: medium;
+    line-height: 150%;
+    color: azure;
+    font-family: Poppins;
+    font-weight: 200;
+    letter-spacing: 0.5px;
+    margin-top: 3%;
+    line-break: strict;
+  }
+  
+  .hello {
+    color: #F48FB1;
+    font-size: 3rem;
+    font-weight: 700;
+  }
+  
+  .image {
+    position: relative;
+    margin-top: 8%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .design {
+    border: 2px solid rgb(253, 251, 252);
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 2px 3px 3px 2px rgb(247, 76, 167);
+  }
+  
+  .btn {
+    height: 30%;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding: 0%;
+    margin-top: 2%;
+  }
+  
+  .btn1 {
+    background: linear-gradient(to right, rgb(247, 76, 167), #f1edf1, rgb(247, 76, 167));
+    width: 25%;
+    height: 50%;
+    border: none;
+    border-radius: 50px;
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: medium;
+    font-family: Poppins;
+    transition: transform 0.3sec ease-in-out;
+  }
+  
+  .btn2 {
+    background: transparent;
+    color: azure;
+    border: 2px solid rgb(247, 178, 232);
+    box-shadow: inset;
+    box-shadow: 2px 2px 3px rgb(247, 76, 167);
+    border-radius: 50px;
+    width: 25%;
+    height: 50%;
+    cursor: pointer;
+    font-size: 30%;
+    padding: 8px;
+    font-family: Poppins;
+    transition: transform 0.3sec ease-in-out;
+  }
+  
+  .btn1:hover {
+    transform: scale(1.1);
+  }
+  .btn2:hover {
+    transform: scale(1.1);
+  }
+  
+  @media (min-width: 100px) and (max-width: 768px) {
+    .hero {
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      color: azure;
+      line-height: 200%;
+      font-size: x-large;
+      display: grid;
+      margin-bottom: 0%;
+      grid-template-columns: 1fr;
+    }
+    .content {
+      font-size: 2rem;
+      padding: 4%;
+      margin-top: 10%;
+      font-weight: 800;
+    }
+  
+    .content p {
+      font-size: medium;
+      line-height: 150%;
+      color: azure;
+      font-family: Poppins;
+      font-size: 40%;
+      font-weight: 200;
+      letter-spacing: 1%;
+      text-align: center;
+      padding-top: 0%;
+      padding: 3%;
+      margin-top: 2%;
+    }
+  
+    .hello {
+      color: #F48FB1;
+      font-size: 2.5rem;
+      font-weight: 700;
+    }
+  
+    .image {
+      margin-top: 4%;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 10px;
+    }
+  
+    .design {
+      border: 2px solid rgb(255, 255, 255);
+      border-radius: 50%;
+      width: 310px;
+      height: 320px;
+    }
+  
+    .btn {
+      display: flex;
+      flex-direction: column;
+      height: 50%;
+      align-items: center;
+      place-content: center;
+      column-gap: 20px;
+      margin-top: 3%;
+      margin-left: 0%;
+      margin-right: 0%;
+      padding: 0%;
+      margin-bottom: 15%;
+    }
+    .btn1 {
+      background: linear-gradient(
+        to right,
+        rgb(238, 72, 141),
+        #f1edf1,
+        rgb(238, 72, 141)
+      );
+      width: 75%;
+      height: 40%;
+      border: none;
+      border-radius: 50px;
+      margin-right: 0%;
+      margin-bottom: 3%;
+      cursor: pointer;
+      font-size: 48%;
+      font-family: Poppins;
+      transition: transform 0.3sec ease-in-out;
+    }
+  
+    .btn2 {
+      background: transparent;
+      color: azure;
+      border: 2px solid rgb(255, 94, 220);
+      box-shadow: inset;
+      box-shadow: 2px 2px 2px#b3258f;
+      border-radius: 50px;
+      width:75%;
+      height: 40%;
+      cursor: pointer;
+      font-size: 45%;
+      font-family: Poppins;
+      transition: transform 0.3sec ease-in-out;
+    }
+  
+    .btn1:hover {
+      transform: scale(1.1);
+    }
+    .btn2:hover {
+      transform: scale(1.1);
+    }
+  }
+  
+  @media (min-width: 769px) and (max-width: 992px) {
+    .hero {
+      width: 90%;
+      height: 60vh;
+      margin-left: auto;
+      margin-right: auto;
+      color: palevioletred;
+      line-height: 280%;
+      font-size: x-large;
+    }
+  
+    .content {
+      height: 40%;
+      margin-top: 25%;
+      font-size: 3rem;
+      font-weight: 800;
+    }
+    .hello {
+      color: #F48FB1;
+      font-size: 3rem;
+      font-weight: 600;
+    }
+  
+    .image {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      margin-top: 25%;
+      
+    }
+  
+    .design {
+      border: 2px solid rgb(255, 255, 255);
+      border-radius: 50%;
+    }
+  
+    .btn {
+      height: 30%;
+      margin-left: 0%;
+      margin-right: 0%;
+      padding: 0%;
+      margin-top: 2%;
+    }
+    
+    .btn1 {
+      background: linear-gradient(
+        to right,
+        rgb(238, 72, 141),
+        #f1edf1,
+        rgb(238, 72, 141)
+      );
+      width: 40%;
+      height: 50%;
+      border: none;
+      border-radius: 50px;
+      margin-right: 0%;
+      margin-bottom: 3%;
+      cursor: pointer;
+      font-size: 35%;
+      font-family: Poppins;
+      transition: transform 0.3sec ease-in-out;
+    }
+  
+    .btn2 {
+      background: transparent;
+      color: azure;
+      border: 2px solid rgb(255, 94, 220);
+      box-shadow: inset;
+      box-shadow: 2px 2px 2px#b3258f;
+      border-radius: 50px;
+      width: 40%;
+      height: 50%;
+      margin-left: 3%;
+      cursor: pointer;
+      font-size: 30%;
+      font-family: Poppins;
+      transition: transform 0.3sec ease-in-out;
+    }
+  
+    .btn1:hover {
+      transform: scale(1.1);
+    }
+    .btn2:hover {
+      transform: scale(1.1);
+    }
+  
+  }
+  
+  @media (min-width: 993px) and (max-width: 1200px) {
+    .hero {
+      width: 90%;
+      height: 60vh;
+      margin-left: auto;
+      margin-right: auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      color: palevioletred;
+      line-height: 250%;
+      font-size: x-large;
+      font-family: "Merienda";
+      text-overflow: hidden;
+    }
+  
+    .content {
+      height: 60%;
+      margin-top: 30%;
+      font-size: 3rem;
+      font-weight: 900;
+    }
+  
+    .content p {
+      font-size: medium;
+      line-height: 150%;
+      color: azure;
+      font-family: Poppins;
+      font-weight: 200;
+      letter-spacing: 0.5px;
+      margin-top: 3%;
+      line-break: strict;
+    }
+  
+    .hello {
+      color: azure;
+      font-size: 3rem;
+      font-weight: 800;
+    }
+  
+    .image {
+      margin-top: 25%;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      ;
+    }
+  
+    .design {
+      border: 2px solid palevioletred;
+      border-radius: 50%;
+    }
+    .btn {
+      height: 30%;
+      margin-left: 0%;
+      margin-right: 0%;
+      padding: 0%;
+      margin-top: 2%;
+    }
+    
+    .btn1 {
+      background: linear-gradient(
+        to right,
+        rgb(238, 72, 141),
+        #f1edf1,
+        rgb(238, 72, 141)
+      );
+      width: 40%;
+      height: 40%;
+      border: none;
+      border-radius: 50px;
+      margin-right: 0%;
+      margin-bottom: 3%;
+      cursor: pointer;
+      font-size: 38%;
+      font-family: Poppins;
+      transition: transform 0.3sec ease-in-out;
+    }
+  
+    .btn2 {
+      background: transparent;
+      color: azure;
+      border: 2px solid rgb(255, 94, 220);
+      box-shadow: inset;
+      box-shadow: 2px 2px 2px#b3258f;
+      border-radius: 50px;
+      width: 40%;
+      height: 40%;
+      margin-left: 3%;
+      cursor: pointer;
+      font-size: 38%;
+      font-family: Poppins;
+      transition: transform 0.3sec ease-in-out;
+    }
+  
+    .btn1:hover {
+      transform: scale(1.1);
+    }
+    .btn2:hover {
+      transform: scale(1.1);
+    }
+  
+  }

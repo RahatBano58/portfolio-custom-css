@@ -1,0 +1,121 @@
+.footer-section{
+   
+    background-image: url('/images/pink.png');
+     background-repeat: no-repeat;
+     background-size: cover;
+     
+}
+
+
+.footer{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    
+}
+
+.dev{
+  color: #F48FB1;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.links-item{
+   font-weight: 200;
+}
+.home-links ul{
+  list-style: none;
+}
+
+.social-links ul{
+list-style: none;
+
+}
+
+.rights{
+color: azure;
+font-family: poppins;
+font-weight: 200;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+padding-top: 20px;
+padding-bottom: 20px;
+font-size: small;
+letter-spacing: 5px;
+background-color: crimson;
+align-items: center;
+}
+
+
+@media (min-width: 100px) and (max-width: 768px){
+.footer{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50vh;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    
+}
+
+.dev{
+ margin-top: 10%;
+  color: #F48FB1;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 5%;
+  margin-right: 0%;
+}
+
+.links-item{
+
+   font-weight: 200;
+}
+.home-links ul{
+  list-style: none;
+  margin-bottom: 4%;
+  letter-spacing: 2px;
+}
+
+.social-links ul{
+list-style: none;
+letter-spacing: 2px;
+}
+
+.rights{
+color: azure;
+font-family: poppins;
+font-weight: 200;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+padding-top: 20px;
+padding-bottom: 20px;
+font-size: small;
+letter-spacing: 5px;
+background-color: crimson;
+align-items: center;
+}
+
+}
+
+
+@media (min-width: 769px) and (max-width: 992px){
+
+}
+
+
+@media (min-width: 993px) and (max-width: 1200px){
+
+
+
+}

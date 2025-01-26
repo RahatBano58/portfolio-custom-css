@@ -1,0 +1,171 @@
+.header-section{
+   
+    background-image: url('/images/pink.png');
+     background-repeat: no-repeat;
+     background-size: cover;
+     
+}
+
+.header{
+    width: 90%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    
+}
+
+
+.logo{
+    font-size: 25px;
+    font-weight: 700;
+    color: azure;
+    font-family: "Poppins",'cursive';
+}
+
+
+.list-items{
+   width: 30%;
+   
+   
+}
+
+.list-items ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    gap: 10px
+}
+
+.links-item{
+    text-decoration: none;
+    font-size: larger;
+    color: azure;
+    font-family: 'Poppins'
+    
+}
+
+.links-item:hover{
+    color: palevioletred;
+}
+
+.menu{
+   color: azure;
+   width: 10%;
+   display: none;
+}
+
+@media (min-width:100px) and (max-width:768px) {
+    
+    .header{
+        padding-top: 4px;
+        width: 90%;
+        height: 80px;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        
+    }
+
+    .logo{
+        font-size: 25px;
+        font-weight: 700;
+        font-family: Poppins;
+    }
+
+
+    .list-items{
+        display: none;
+     }
+     
+    .menu{
+        display: block;
+        color: azure;
+        margin-left: auto;      
+        width: 8%;
+    }
+
+}
+
+@media (min-width:769px) and (max-width:992px) {
+
+    .header{
+        padding-top: 12px;
+        width: 90%;
+        height: 80px;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        
+    }
+
+    .logo{
+        font-size: 38px;
+        font-weight: 700;
+        font-family: Poppins;
+    }
+
+
+     .links-item{
+        text-decoration: none;
+        font-size: 140%;
+        color: azure;
+        font-family: 'Poppins'
+        
+        
+    }
+     .list-items{
+        margin-right: 12%;
+        
+     }
+    .list-items ul{
+        display: flex;
+        justify-content: space-evenly;
+        list-style: none;
+        gap: 16px
+    }
+}
+
+
+
+@media (min-width:992px) and (max-width:1200px) {
+
+ 
+    .header{
+        padding-top: 12px;
+        width: 90%;
+        height: 80px;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        
+    }
+
+    .logo{
+        font-size: 38px;
+        font-weight: 700;
+        font-family: Poppins;
+    }
+
+
+     .links-item{
+        text-decoration: none;
+        font-size: 140%;
+        color: azure;
+        font-family: 'Poppins'
+        
+        
+    }
+     .list-items{
+        margin-right: 8%;
+        
+     }
+    .list-items ul{
+        display: flex;
+        justify-content: space-evenly;
+        list-style: none;
+        gap: 20px
+    }
+}

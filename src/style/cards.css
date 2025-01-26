@@ -1,0 +1,239 @@
+
+
+
+.cards{
+    width: 30%;
+    height: 40%;
+    border: 1px;
+    box-shadow: 1px 1px palevioletred;
+    border-radius: 5%;
+    background-image: url('/images/pink.png');
+    transition: all 0.2sec ease;
+    
+}
+.cards:hover{
+    transform: translateY(-6px);
+}
+
+.outer{
+    display: block;
+    margin-top: 8%;
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+    height: 90%;
+    padding: 6%;
+    align-items: center;
+    display: block;
+    cursor: pointer;
+    text-decoration: none;
+   
+}
+
+.innerImg{
+
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #F48FB1;
+    
+}
+
+.name{
+    text-align: center;
+    font-size: large;
+    font-family: Merienda;
+    color: #F48FB1;
+    margin-top: 3%;
+    text-decoration: none;
+    
+}
+
+.outer a{
+    text-decoration: none;
+}
+
+
+.para{
+    color: azure;
+    margin-top: 3%;
+    text-align: center;
+    font-family: poppins;
+    font-weight: 200;
+    font-size: 80%;
+    
+}
+
+@media (min-width: 100px) and (max-width: 768px){
+
+
+.cards{
+    width: 90%;
+    height: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    border: 1px;
+    box-shadow: 1px 1px palevioletred;
+    border-radius: 5%;
+    background-image: url('/images/pink.png');
+}
+
+
+.outer{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+    height: 80%;
+}
+.outer a{
+    text-decoration: none;
+}
+
+
+}
+
+@media (min-width: 769px) and (max-width: 992px){
+    .cards{
+        width: 80%;
+        height: 30%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5%;
+        border: 1px;
+        box-shadow: 1px 1px palevioletred;
+        border-radius: 3%;
+        background-image: url('/images/pink.png');
+    }
+    .outer{
+        display: block;
+        margin-top: 8%;
+        margin-right: auto;
+        margin-left: auto;
+        width: 80%;
+        height: 90%;
+        padding: 6%;
+        align-items: center;
+        display: block;
+        cursor: pointer;
+       
+    }
+    
+    .innerImg{
+    
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        border-radius: 50%;
+        justify-content: center;
+        align-items: center;
+        width: 120px;
+        height: 120px;
+        
+    }
+    
+    .name{
+        text-align: center;
+        font-size: 2rem;
+        font-family: Merienda;
+        color: #F48FB1;
+        margin-top: 3%;
+        text-decoration: none;
+        
+    }
+    
+    .outer a{
+        text-decoration: none;
+    }
+    
+    
+    .para{
+        color: azure;
+        margin-top: 3%;
+        text-align: center;
+        font-family: poppins;
+        font-weight: 200;
+        font-size: 120%;
+        overflow: hidden;
+        
+    }
+    
+    
+}
+
+
+
+
+@media (min-width: 993px) and (max-width: 1200px){
+
+    
+    .cards{
+        width: 80%;
+        height: 38%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5%;
+        border: 1px;
+        box-shadow: 1px 1px palevioletred;
+        border-radius: 3%;
+        background-image: url('/images/pink.png');
+    }
+    .outer{
+        display: block;
+        margin-top: 2%;
+        margin-right: auto;
+        margin-left: auto;
+        width: 80%;
+        height: 90%;
+        padding: 6%;
+        align-items: center;
+        display: block;
+        cursor: pointer;
+       
+    }
+    
+    .innerImg{
+    
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        border-radius: 50%;
+        justify-content: center;
+        align-items: center;
+        width: 130px;
+        height: 130px;
+        
+    }
+    
+    .name{
+        text-align: center;
+        font-size: 3rem;
+        font-family: Merienda;
+        color: #F48FB1;
+        margin-top: 3%;
+        text-decoration: none;
+        
+    }
+    
+    .outer a{
+        text-decoration: none;
+    }
+    
+    
+    .para{
+        color: azure;
+        margin-top: 3%;
+        text-align: center;
+        font-family: poppins;
+        font-weight: 200;
+        font-size: 140%;
+        overflow: hidden;
+        
+    }
+    
+    
+}
